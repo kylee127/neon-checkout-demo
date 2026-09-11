@@ -1,0 +1,16 @@
+{
+  "name": "neon-checkout-demo",
+  "version": "1.0.0",
+  "description": "Neon Hosted Checkout integration demo with webhook fulfillment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "register-webhook": "node --env-file-if-exists=.env register-webhook.js"
+  },
+  "engines": {
+    "node": ">=22.9.0"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
